@@ -1,0 +1,60 @@
+// Given a string s, a k duplicate removal consists of choosing k adjacent and equal letters from s and removing them causing the left and the right side of the deleted substring to concatenate together.
+
+// We repeatedly make k duplicate removals on s until we no longer can.
+
+// Return the final string after all such duplicate removals have been made.
+
+// It is guaranteed that the answer is unique.
+
+
+
+// Example 1:
+
+// Input: s = "abcd", k = 2
+// Output: "abcd"
+// Explanation: There's nothing to delete.
+// Example 2:
+
+// Input: s = "deeedbbcccbdaa", k = 3
+// Output: "aa"
+// Explanation:
+// First delete "eee" and "ccc", get "ddbbbdaa"
+// Then delete "bbb", get "dddaa"
+// Finally delete "ddd", get "aa"
+// Example 3:
+
+// Input: s = "pbbcggttciiippooaais", k = 2
+// Output: "ps"
+
+var removeDuplicates = function(s, k) {
+  let char = s[0];
+  let chCount = 1;
+  let remove = [];
+  let found = false;
+  let answer = s;
+  debugger;
+  for (let i = 1; i < s.length; i++) {
+      if (s[i] == char) {
+          chCount++;
+      } else {
+          char = s[i];
+          chCount = 1;
+      }
+      if (chCount === k) {
+          chCount = 1;
+          remove.push(i);
+          found = true;
+      }
+  }
+  for (let i = 0; i < remove.length; i++) {
+      answer.splice(remove[i]-k*i, k);
+  }
+  while (found) {
+      answer = removeDuplicates(answer, k)
+  }
+  return answer;
+};
+
+let test = removeDuplicates("deeedbbcccbdaa", 3);
+
+console.log(test)
