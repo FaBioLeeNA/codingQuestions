@@ -32,22 +32,23 @@ var removeDuplicates = function(s, k) {
   let remove = [];
   let found = false;
   let answer = s;
-  debugger;
   for (let i = 1; i < s.length; i++) {
-      if (s[i] == char) {
-          chCount++;
-      } else {
-          char = s[i];
-          chCount = 1;
-      }
-      if (chCount === k) {
-          chCount = 1;
-          remove.push(i);
-          found = true;
-      }
+    if (s[i] == char) {
+      chCount++;
+    } else {
+      char = s[i];
+      chCount = 1;
+    }
+    if (chCount === k) {
+      chCount = 1;
+      remove.push(i);
+      found = true;
+    }
   }
+  debugger;
   for (let i = 0; i < remove.length; i++) {
       answer.splice(remove[i]-k*i, k);
+      answer = answer.substring()
   }
   while (found) {
       answer = removeDuplicates(answer, k)
