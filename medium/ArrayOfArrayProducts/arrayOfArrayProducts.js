@@ -1,3 +1,6 @@
+const link = 'https://leetcode.com/problems/product-of-array-except-self/'
+const level = 'medium'
+
 // Array of Array Products
 // Given an array of integers arr, you’re asked to calculate for each index i the product of all integers except the integer at that index (i.e. except arr[i]). Implement a function arrayOfArrayProducts that takes an array of integers and returns an array of the products.
 
@@ -12,7 +15,7 @@
 // output: [84, 24, 56, 42] # by calculating: [7*3*4, 2*3*4, 2*7*4, 2*7*3]
 
 function arrayOfArrayProducts(arr) {
-  // your code goes here
+  
   if (arr.length <= 1) {
     return [];
   }
