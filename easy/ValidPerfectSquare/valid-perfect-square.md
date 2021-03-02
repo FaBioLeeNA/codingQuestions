@@ -5,15 +5,6 @@ link: 'https://leetcode.com/problems/valid-perfect-square/'
 
 
 
-<!-- ### Contents -->
-
-<!-- * **[Prompt](#prompt)**
-* **[Conceptual Overview](#conceptual-overview)**
-* **[Examples](#examples)**
-* **[Space and Time Complexity](#space-and-time-complexity)**
-* **[Solution](#solution)** -->
-
-
 ### Prompt
 Given a positive integer num, write a function which returns True if num is a perfect square else False.
 

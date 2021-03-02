@@ -4,16 +4,6 @@ link: 'https://leetcode.com/problems/add-to-array-form-of-integer/'
 ---
 
 
-
-<!-- ### Contents -->
-
-<!-- * **[Prompt](#prompt)**
-* **[Conceptual Overview](#conceptual-overview)**
-* **[Examples](#examples)**
-* **[Space and Time Complexity](#space-and-time-complexity)**
-* **[Solution](#solution)** -->
-
-
 ### Prompt
 For a non-negative integer `X`, the array-form of `X` is an array of its digits in left to right order.  For example, if `X = 1231`, then the array form is `[1,2,3,1]`.
 

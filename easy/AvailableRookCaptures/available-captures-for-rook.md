@@ -5,14 +5,6 @@ link: 'https://leetcode.com/problems/available-captures-for-rook/'
 
 
 
-<!-- ### Contents -->
-
-<!-- * **[Prompt](#prompt)**
-* **[Conceptual Overview](#conceptual-overview)**
-* **[Examples](#examples)**
-* **[Space and Time Complexity](#space-and-time-complexity)**
-* **[Solution](#solution)** -->
-
 
 ### Prompt
 On an `8 x 8` chessboard, there is one white rook `'R'`. There also may be empty squares `'.'`, white bishops `'B'`, and black pawns `'p'`. Uppercase characters represent white pieces, and lowercase characters represent black pieces.
