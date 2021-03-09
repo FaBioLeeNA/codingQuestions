@@ -1,6 +1,6 @@
 ---
 title: 'Climbing Stairs'
-link: 'https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/'
+link: 'https://leetcode.com/problems/climbing-stairs/'
 ---
 
 
