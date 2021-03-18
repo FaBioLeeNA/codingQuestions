@@ -18,7 +18,8 @@ Could you implement a solution using only `O(1)` extra space complexity and `O(n
 
 #### Explanation
 ```
-n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not appear in nums.
+n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 
+2 is the missing number in the range since it does not appear in nums.
 ```
 
 
@@ -28,7 +29,8 @@ n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the
 `2`
 #### Explanation
 ```
-n = 2 since there are 2 numbers, so all numbers are in the range [0,2]. 2 is the missing number in the range since it does not appear in nums.
+n = 2 since there are 2 numbers, so all numbers are in the range [0,2]. 
+2 is the missing number in the range since it does not appear in nums.
 ```
 
 #### Input 3
@@ -37,7 +39,8 @@ n = 2 since there are 2 numbers, so all numbers are in the range [0,2]. 2 is the
 `8`
 #### Explanation
 ```
-n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the missing number in the range since it does not appear in nums.
+n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 
+8 is the missing number in the range since it does not appear in nums.
 ```
 
 ### Constraints
